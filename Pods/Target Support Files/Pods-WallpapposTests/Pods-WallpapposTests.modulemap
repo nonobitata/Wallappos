@@ -1,0 +1,6 @@
+framework module Pods_WallpapposTests {
+  umbrella header "Pods-WallpapposTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
