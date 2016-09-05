@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0250191C1D7CDD7F002A70CB /* CellWithInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250191B1D7CDD7F002A70CB /* CellWithInfo.swift */; };
+		0250191E1D7CF476002A70CB /* DemoPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250191D1D7CF476002A70CB /* DemoPic.swift */; };
+		025019201D7CFE13002A70CB /* home-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0250191F1D7CFE13002A70CB /* home-screen.png */; };
 		028D64541D7BE145005F3205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D64531D7BE145005F3205 /* AppDelegate.swift */; };
 		028D64561D7BE145005F3205 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D64551D7BE145005F3205 /* FirstViewController.swift */; };
 		028D64581D7BE145005F3205 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D64571D7BE145005F3205 /* SecondViewController.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		0041156E0A00145F6536576D /* Pods-WallpapposTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallpapposTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallpapposTests/Pods-WallpapposTests.release.xcconfig"; sourceTree = "<group>"; };
+		0250191B1D7CDD7F002A70CB /* CellWithInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellWithInfo.swift; sourceTree = "<group>"; };
+		0250191D1D7CF476002A70CB /* DemoPic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPic.swift; sourceTree = "<group>"; };
+		0250191F1D7CFE13002A70CB /* home-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-screen.png"; sourceTree = "<group>"; };
 		028D64501D7BE145005F3205 /* Wallpappos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallpappos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028D64531D7BE145005F3205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028D64551D7BE145005F3205 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -120,9 +126,12 @@
 			children = (
 				028D64531D7BE145005F3205 /* AppDelegate.swift */,
 				028D64551D7BE145005F3205 /* FirstViewController.swift */,
+				0250191B1D7CDD7F002A70CB /* CellWithInfo.swift */,
 				028D64831D7BE84D005F3205 /* DataClass.swift */,
 				028D64571D7BE145005F3205 /* SecondViewController.swift */,
 				028D64591D7BE145005F3205 /* Main.storyboard */,
+				0250191D1D7CF476002A70CB /* DemoPic.swift */,
+				0250191F1D7CFE13002A70CB /* home-screen.png */,
 				028D645C1D7BE145005F3205 /* Assets.xcassets */,
 				028D645E1D7BE145005F3205 /* LaunchScreen.storyboard */,
 				028D64611D7BE145005F3205 /* Info.plist */,
@@ -284,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025019201D7CFE13002A70CB /* home-screen.png in Resources */,
 				028D64601D7BE145005F3205 /* LaunchScreen.storyboard in Resources */,
 				028D645D1D7BE145005F3205 /* Assets.xcassets in Resources */,
 				028D645B1D7BE145005F3205 /* Main.storyboard in Resources */,
@@ -435,7 +445,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				028D64581D7BE145005F3205 /* SecondViewController.swift in Sources */,
+				0250191C1D7CDD7F002A70CB /* CellWithInfo.swift in Sources */,
 				028D64541D7BE145005F3205 /* AppDelegate.swift in Sources */,
+				0250191E1D7CF476002A70CB /* DemoPic.swift in Sources */,
 				028D64841D7BE84D005F3205 /* DataClass.swift in Sources */,
 				028D64561D7BE145005F3205 /* FirstViewController.swift in Sources */,
 			);

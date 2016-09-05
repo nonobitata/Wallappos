@@ -2,6 +2,7 @@
  platform :ios, '9.0'
 # platform :ios, '8.0'
 use_frameworks!
+pod 'Kingfisher', '~> 2.4'
 
 pod 'SwiftyJSON'
 target 'Wallpappos' do
